@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="jh-footer">
     footer
   </div>
 </template>
@@ -12,6 +12,13 @@ export default {
 
 </script>
 
-<style lang="">
+<style lang="" scoped>
+
+.jh-footer {
+  height: 60px;
+  line-height: 60px;
+  background-color: #016639;
+  color: white;
+}
 
 </style>

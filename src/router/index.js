@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 // import HelloWorld from '@/components/HelloWorld'
-// import Home from '@/views/home/home.vue'
+// import Home from '@/views/home/Home.vue'
 import Layout from '@/layout/routerview/Layout'
 
 import Home from './home'
