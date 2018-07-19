@@ -1,0 +1,44 @@
+/*
+ * @Author: zww
+ * @Date: 2018-07-18 18:09:47
+ * @Last Modified by: zww
+ * @Last Modified time: 2018-07-19 11:03:57
+ */
+
+body {
+  height: auto;
+  min-height: 100%;
+  overflow-x: hidden;
+  font: 14px/1.5 "Lucida Grande",Helvetica,Arial,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",Roboto,Arial,sans-serif;
+  color: #222222;
+  word-wrap: break-word;
+  background-color: #fff;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.clearfix:before {
+  content: ' ';
+  display: table;
+}
+.clearfix:after {
+  content: ' ';
+  clear: both;
+}
